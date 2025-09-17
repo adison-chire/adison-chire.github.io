@@ -53,7 +53,7 @@ const [showDemoModal, setShowDemoModal] = useState(false);
             }}
             className="text-cyan-400 font-medium hover:underline transition"
           >
-            Galería
+            Demo & Galería
           </button>
         </div>
       </div>
