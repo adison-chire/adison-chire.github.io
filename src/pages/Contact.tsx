@@ -8,7 +8,7 @@ return (
     ¡Hablemos!
     </h2>
     <p className="text-lg md:text-xl font-light mb-12 max-w-xl">
-    Estoy activamente buscando nuevas oportunidades en análisis de datos. No dudes en contactarme para colaborar, discutir proyectos o simplemente saludar.
+    Estoy activamente buscando nuevas oportunidades. No dudes en contactarme para colaborar, discutir proyectos o simplemente saludar.
     </p>
 
     <div className="flex flex-col gap-6 md:gap-8 text-xl">
@@ -18,7 +18,7 @@ return (
         className="flex items-center gap-4 hover:text-cyan-400 transition-colors"
     >
         <Mail size={32} />
-        <span className="text-base md:text-lg">Mail</span>
+        <span className="text-base md:text-lg">adichidev03@gmail.com</span>
     </a>
     
     {/* Perfil de LinkedIn */}
@@ -49,7 +49,7 @@ return (
         className="flex items-center gap-4 hover:text-cyan-400 transition-colors"
     >
         <PhoneCallIcon size={32} />
-        <span className="text-base md:text-lg">Phone</span>
+        <span className="text-base md:text-lg">My Phone</span>
     </a>
     </div>
 </section>
