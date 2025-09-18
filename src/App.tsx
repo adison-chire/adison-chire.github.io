@@ -1,5 +1,5 @@
-import fondo from '../src/assets/fondo.jpg'
 import { Routes, Route } from 'react-router-dom';
+import fondo from './assets/fondo.jpg'
 import Navbar from './components/Navbar';
 import Home from './pages/Home'
 import Projects from './pages/Projects'

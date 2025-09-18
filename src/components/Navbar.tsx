@@ -8,7 +8,7 @@ const Navbar= () => {
         //md: → pantallas ≥ 768px (tablets). lg: → pantallas ≥ 1024px (laptops/PCs).
         <nav className="flex justify-between items-center px-4 py-6 md:px-8 lg:px-16 text-cyan-400 ">
             {/* Logo */}
-            <span className="font-bold text-xl md:text-2xl lg:text-3xl "> ADISON CH_ </span>
+            <span className="font-bold text-xl md:text-2xl lg:text-3xl text-white"> ADISON CH_ </span>
             {/* Menú desktop */}
             <ul className ="hidden md:flex gap-4 md:gap-6 lg:gap-8 text-sm md:text-base">
                 <li><Link to="/" className="hover:text-cyan-200 transition-colors">Home</Link></li>
