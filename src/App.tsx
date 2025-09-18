@@ -1,4 +1,4 @@
-import fondoP from '../src/assets/FONDO-A.jpg'
+import fondo from '../src/assets/fondo.jpg'
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home'
@@ -10,7 +10,7 @@ function App() {
   
   return (
     <div className='min-h-screen bg-cover bg bg-center'
-    style={{ backgroundImage: `url(${fondoP})` }}>
+    style={{ backgroundImage: `url(${fondo})` }}>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
