@@ -47,15 +47,18 @@ export const projects = [
     github: "https://github.com/adison-chire/reservas-barbershop.git",
     // Agrega el array de media con el GIF y las imágenes
     media: [
-      "/images/img_barber/dashboard_barber.gif", 
-      "/images/img_barber/sqlserver.png", 
-      "/images/img_barber/dimen.png", 
-      "/images/img_barber/data.png", 
-      "/images/img_barber/principal.png", 
-      "/images/img_barber/d_2.png", 
-      "/images/img_barber/d_3.png", 
-      "/images/img_barber/d_4.png", 
-      "/images/img_barber/d_5.png"
+      "/images/img_web_barber/video_app_web_barberia.gif", 
+      "/images/img_web_barber/bd.png", 
+      "/images/img_web_barber/crea_cuenta.png", 
+      "/images/img_web_barber/rec_cuenta.png", 
+      "/images/img_web_barber/ini_sesion.png", 
+      "/images/img_web_barber/panel_admin.png", 
+      "/images/img_web_barber/ver_citas_admin.png", 
+      "/images/img_web_barber/nue_serv.png", 
+      "/images/img_web_barber/fecha_cita.png", 
+      "/images/img_web_barber/registra_cita.png", 
+      "/images/img_web_barber/servicios.png", 
+      "/images/img_web_barber/reservar.png",  
     ],
     category: "Apps Web"
   },
