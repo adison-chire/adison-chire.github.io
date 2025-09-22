@@ -2,9 +2,9 @@ export const projects = [
   {
     id: 1,
     title: "GeoRutas Huaraz",
-    description: "Aplicación web interactiva que facilita la movilidad urbana en la ciudad de Huaraz. A través de un enfoque basado en Sistemas de Información Geográfica (SIG), analiza la red de calles para calcular y visualizar las rutas más rápidas y eficientes.",
+    description: "Aplicación que calcula 3 rutas alternativas hacia un destino, mostrando distancia, tiempo estimado y nivel de congestión en tiempo real. Cada ruta incluye detalles de los tramos (lat/long, tipo de vía, velocidad y categoría de congestión).",
     image: "/images/img_georutas/sitema_rutas_hz_1.gif", // Usa una imagen principal para la tarjeta
-    tech: ["PYTHON", "HTML", "CSS", "JAVASCRIPT", "SQL"],
+    tech: ["PYTHON", "HTML", "CSS", "JAVASCRIPT", "PostgreSQL"],
     github: "https://github.com/adison-chire/Sistema-Rutas-Huaraz.git",
     // Agrega el array de media con el GIF y las imágenes
     media: [

@@ -9,42 +9,22 @@ const About: React.FC = () => {
 
       <div className="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed">
         
-        {/* Párrafo 1: Identidad y Propuesta de Valor (El Gancho) */}
+        
         <p>
-          Soy <strong>Adison Chire</strong>, Analista de Datos egresado de la <strong>UNASAM</strong> y pronto a ser titulado, mi enfoque es simple: 
-          transformar los datos en <span className="text-cyan-300 font-semibold">soluciones y decisiones claras</span>. 
-          Mi experiencia se centra en **construir sistemas** que optimizan la gestión de negocios y la logística. 
-          <strong> No solo reporto números, los hago actuar.</strong>
+          Soy <strong>Ingeniero de Sistemas e Informática</strong>, con un enfoque en Business Intelligence y análisis de datos. He trabajado en proyectos aplicando ETL en Python, modelado en PostgreSQL y SQL Server, y dashboards en Power BI que convierten datos en información útil para la toma de decisiones.
         </p>
 
-        {/* Párrafo 2: Evidencia Tangible y Stack de Soluciones */}
+        
         <p>
-          Mi portafolio demuestra mi dominio en el ciclo completo del análisis, desde la infraestructura hasta la conclusión:
+          Además, disfruto crear proyectos web con React, TypeScript y Tailwind CSS, lo que me ha permitido expandir mis habilidades técnicas y mantenerme en constante aprendizaje.         
         </p>
         
-        {/* Lista de Logros como Evidencia (Usando <ul> y <li>) */}
-        <ul className="list-disc list-inside ml-6 space-y-3 font-medium">
-            <li className="text-teal-300">
-                <span className="text-white">
-                    <strong>Integración de Sistemas (Full Stack Analytics):</strong> Desarrollé GeoRutas Huaraz combinando <strong>Python, JavaScript, y SQL</strong> para crear una solución de movilidad urbana con <strong>Sistemas de Información Geográfica (SIG)</strong>.
-                </span>
-            </li>
-            <li className="text-teal-300">
-                <span className="text-white">
-                    <strong>Business Intelligence Aplicada:</strong> En Barbershop Data Analytics, utilicé <strong>SQL Server y Power BI</strong> para centralizar métricas y entregar <strong>reportes interactivos</strong> que optimizaron la toma de decisiones.
-                </span>
-            </li>
-        </ul>
-        
-        {/* El Toque Personal/Humano */}
-        <p className="pt-4 italic text-gray-400">
-            Creo firmemente en que los datos cuentan historias que, si se interpretan correctamente, tienen el poder de transformar procesos obsoletos en estrategias de alta rentabilidad.
+        <p>
+        Me considero una persona analítica, orientada a resultados y comprometida con la calidad de la información, siempre buscando aportar valor en equipos de trabajo colaborativos.
         </p>
-        
 
-        {/* Párrafo 3: Visión de Crecimiento */}
         <p>
-          Busco un entorno desafiante donde mis habilidades en <strong>SQL, Python</strong> y <strong>Power BI</strong> puedan resolver problemas reales. Estoy disponible para unirme a un equipo que valore la mentalidad de crecimiento continuo y apueste por la innovación. <strong>Estoy listo para aprender, asumir cualquier nuevo reto y aportar valor inmediato.</strong>
+          Estoy disponible para unirme a un equipo que valore la mentalidad de crecimiento continuo y apueste por la innovación. <strong>Estoy listo para aprender, asumir cualquier nuevo reto y aportar valor inmediato.</strong>
         </p>
 
       </div>

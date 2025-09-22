@@ -7,14 +7,18 @@ const Navbar= () => {
     return (
         //md: → pantallas ≥ 768px (tablets). lg: → pantallas ≥ 1024px (laptops/PCs).
         <nav className="flex justify-between items-center px-4 py-6 md:px-8 lg:px-16 text-cyan-400 ">
-            {/* Logo */}
-            <span className="font-bold text-xl md:text-2xl lg:text-3xl text-white"> ADISON CH_ </span>
+            {/* Logo*/}
+            <Link to="/" className="text-white hover:text-cyan-400 transition-colors focus:outline-none">
+                <span className="font-bold text-xl md:text-2xl lg:text-3xl"> 
+                    ADISON CH_ 
+                </span>
+            </Link>
             {/* Menú desktop */}
             <ul className ="hidden md:flex gap-4 md:gap-6 lg:gap-8 text-sm md:text-base">
                 <li><Link to="/" className="hover:text-cyan-200 transition-colors">Home</Link></li>
-                <li><Link to="/Projects" className="hover:text-cyan-200 transition-colors">Projects</Link></li>
-                <li><Link to="/About" className="hover:text-cyan-200 transition-colors">About</Link></li>
-                <li><Link to="/Contact" className="hover:text-cyan-200 transition-colors">Contact</Link></li>
+                <li><Link to="/Projects" className="hover:text-cyan-200 transition-colors">Proyectos</Link></li>
+                <li><Link to="/About" className="hover:text-cyan-200 transition-colors">Sobre mí</Link></li>
+                <li><Link to="/Contact" className="hover:text-cyan-200 transition-colors">Contactame</Link></li>
             </ul>
             {/* Botón hamburguesa en móvil */}
             <button
