@@ -43,7 +43,7 @@ const Home: React.FC = () => {
         {/* El Botón (CTA): Llamada a la acción a ver la evidencia */}
         <div className="pt-8">
           <a
-            href="/projects" // Asegúrate de que este ID coincida con tu sección de proyectos
+            href="/#/projects" // Asegúrate de que este ID coincida con tu sección de proyectos
             className="inline-flex items-center justify-center px-8 py-3 text-base font-extrabold rounded-full text-gray-900 bg-cyan-400 hover:bg-cyan-300 transition-colors shadow-lg"
           >
             Ver Proyectos
