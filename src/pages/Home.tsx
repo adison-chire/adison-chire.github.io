@@ -33,7 +33,7 @@ const Home: React.FC = () => {
         <p className="mt-4 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
           Buscando oportunidades de experiencia profesional como 
           <span className="text-cyan-400 font-semibold"> Trainee o Junior</span>. 
-          Cuento con bases en <strong>Python</strong>, <strong>SQL Server</strong>, <strong>MySQL</strong> y 
+          Cuento con bases en <strong>Python</strong>, <strong>SQL Server</strong> y 
           <strong> Power BI</strong> para análisis de datos, además de proyectos web con 
           <strong> React</strong>, <strong>TypeScript</strong> y <strong>PHP/MySQL</strong>. 
           Mi objetivo es integrarme en un equipo donde pueda <span className="text-cyan-400 font-semibold">
