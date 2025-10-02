@@ -18,26 +18,26 @@ const Home: React.FC = () => {
         
         {/* El Gancho (H3): Qué te diferencia */}
         <h3 className="text-xl md:text-2xl font-semibold text-cyan-400">
-          Transformo datos en información estratégica para la toma de decisiones.
+          Mi pasión es la tecnología y el aprendizaje constante.
         </h3>
         
         {/* El Título (H1): Tu identidad profesional */}
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">
           Soy Adison Chire, <br className="hidden sm:inline"/>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-300 to-cyan-500">
-            Ingeniero de Sistemas e Informática.
+            Egresado en Ingeniería de Sistemas e Informática
           </span>
         </h1>
         
         {/* Propuesta de valor */}
         <p className="mt-4 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
-          Especialización en <span className="text-cyan-400 font-semibold">Business Intelligence </span> 
-          y <span className="text-cyan-400 font-semibold"> análisis de datos</span>. 
-          Experiencia en procesos ETL con <strong>Python</strong>, modelado en 
-          <strong> PostgreSQL</strong> y <strong>SQL Server</strong>, y creación de 
-          dashboards en <strong>Power BI</strong> para apoyar decisiones estratégicas. 
-          También desarrollo proyectos web con <strong>React</strong>, 
-          <strong>TypeScript</strong> y <strong>Tailwind CSS</strong>.
+          Buscando oportunidades de experiencia profesional como 
+          <span className="text-cyan-400 font-semibold"> Trainee o Junior</span>. 
+          Cuento con bases en <strong>Python</strong>, <strong>SQL Server</strong>, <strong>MySQL</strong> y 
+          <strong> Power BI</strong> para análisis de datos, además de proyectos web con 
+          <strong> React</strong>, <strong>TypeScript</strong> y <strong>PHP/MySQL</strong>. 
+          Mi objetivo es integrarme en un equipo donde pueda <span className="text-cyan-400 font-semibold">
+          aprender, aportar y crecer</span> como profesional.
         </p>
         
         {/* El Botón (CTA): Llamada a la acción a ver la evidencia */}
