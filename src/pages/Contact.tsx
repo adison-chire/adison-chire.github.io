@@ -8,7 +8,7 @@ return (
     ¡Hablemos!
     </h2>
     <p className="text-lg md:text-xl font-light mb-12 max-w-xl">
-    Estoy activamente buscando nuevas oportunidades. No dudes en contactarme para colaborar, discutir proyectos o simplemente saludar.
+    Estoy activamente buscando nuevas oportunidades. No dudes en contactarme para colaborar y discutir proyectos.
     </p>
 
     <div className="flex flex-col gap-6 md:gap-8 text-xl">

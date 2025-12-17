@@ -16,28 +16,23 @@ const Home: React.FC = () => {
       
       <div className="text-center max-w-4xl space-y-6">
         
-        {/* El Gancho (H3): Qué te diferencia */}
-        <h1 className="text-xl md:text-2xl font-semibold text-cyan-400">
-          Analista de Datos Junior.
-        </h1>
-        
         {/* El Título (H2): Tu identidad profesional */}
-        <h2 className="text-5xl md:text-7xl font-extrabold tracking-tight">
+        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">
           Soy Adison Chire, <br className="hidden sm:inline"/>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-300 to-cyan-500">
             Bachiller en Ingeniería de Sistemas e Informática
           </span>
-        </h2>
+        </h1>
         
         {/* Propuesta de valor */}
         <p className="mt-4 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
-          Con experiencia práctica en modelado de datos,procesos ETL y creación de dashboards interactivos en Power BI.
-          He desarrollado reportes automatizados para seguimiento de proyectos y apoyo a latoma de decisiones. Busco una oportunidad como
-          <span className="text-cyan-400 font-semibold">Analista de Datos Junior o BI</span>. 
+          Con experiencia práctica en modelado de datos, procesos ETL y creación de dashboards interactivos en Power BI.
+          He desarrollado reportes automatizados para seguimiento de proyectos y apoyo a la toma de decisiones. Busco una oportunidad como
+          <span className="text-cyan-400 font-semibold"> Analista de Datos Junior o BI</span>. 
           Donde pueda seguir aprendiendo y aportar valor a través de los datos.
           Cuento con bases en <strong>Power BI</strong>, <strong>Power Query</strong>,
           <strong> SQL</strong>, <strong>Python</strong>, <strong>Excel Avanzado</strong> y <strong>KPIs & Dashboards</strong>, 
-          Entre otras tecnologias.
+          entre otras tecnologias.
         </p>
         
         {/* El Botón (CTA): Llamada a la acción a ver la evidencia */}

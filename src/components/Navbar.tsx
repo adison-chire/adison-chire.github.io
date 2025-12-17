@@ -10,7 +10,7 @@ const Navbar= () => {
             {/* Logo*/}
             <Link to="/" className="text-white hover:text-cyan-400 transition-colors focus:outline-none">
                 <span className="font-bold text-xl md:text-2xl lg:text-3xl"> 
-                    ADISON CH_ 
+                    ADISON CHIRE 
                 </span>
             </Link>
             {/* Menú desktop */}

@@ -1,24 +1,7 @@
 export const projects = [
+  
   {
     id: 1,
-    title: "GeoRutas Huaraz",
-    description: "Aplicación que calcula 3 rutas alternativas hacia un destino, mostrando distancia, tiempo estimado y nivel de congestión en tiempo real. Cada ruta incluye detalles de los tramos (lat/long, tipo de vía, velocidad y categoría de congestión).",
-    image: "/images/img_georutas/sitema_rutas_hz_1.gif", // Usa una imagen principal para la tarjeta
-    tech: ["PYTHON", "HTML", "CSS", "JAVASCRIPT", "PostgreSQL"],
-    github: "https://github.com/adison-chire/Sistema-Rutas-Huaraz.git",
-    // Agrega el array de media con el GIF y las imágenes
-    media: [
-      "/images/img_georutas/sitema_rutas_hz_1.gif",
-      "/images/img_georutas/huaraz_map.png",
-      "/images/img_georutas/img_principal.png",
-      "/images/img_georutas/img_direc.png",
-      "/images/img_georutas/detalle.png",
-
-    ],
-    category: "Apps Web"
-  },
-  {
-    id: 2,
     title: "Barbershop Data Analytics",
     description: "Proyecto de análisis de datos para una barbería, enfocado en tableros dinámicos con métricas de ventas, clientes, productos e inventario, además de evaluar el rendimiento del personal y permitir una exploración detallada de las transacciones para mejorar la toma de decisiones.",
     image: "/images/img_barber/dashboard_barber.gif", 
@@ -38,6 +21,25 @@ export const projects = [
     ],
     category: "Data Analyst"
   },
+  {
+    id: 2,
+    title: "GeoRutas Huaraz",
+    description: "Aplicación que calcula 3 rutas alternativas hacia un destino, mostrando distancia, tiempo estimado y nivel de congestión en tiempo real. Cada ruta incluye detalles de los tramos (lat/long, tipo de vía, velocidad y categoría de congestión).",
+    image: "/images/img_georutas/sitema_rutas_hz_1.gif", // Usa una imagen principal para la tarjeta
+    tech: ["PYTHON", "HTML", "CSS", "JAVASCRIPT", "PostgreSQL"],
+    github: "https://github.com/adison-chire/Sistema-Rutas-Huaraz.git",
+    // Agrega el array de media con el GIF y las imágenes
+    media: [
+      "/images/img_georutas/sitema_rutas_hz_1.gif",
+      "/images/img_georutas/huaraz_map.png",
+      "/images/img_georutas/img_principal.png",
+      "/images/img_georutas/img_direc.png",
+      "/images/img_georutas/detalle.png",
+
+    ],
+    category: "Apps Web"
+  },
+
   {
     id: 3,
     title: "Sistema de Reservas de barberia",
